@@ -5,7 +5,7 @@ PROCESS_CALLS = {
     'gnome': "DISPLAY=:0 GSETTINGS_BACKEND=dconf /usr/bin/gsettings set org.gnome.desktop.background picture-uri file://{}",
     'budgie': "DISPLAY=:0 GSETTINGS_BACKEND=dconf /usr/bin/gsettings set org.gnome.desktop.background picture-uri file://{}",
     'nitrogen': "nitrogen --set-auto {}",
-    'feh': "feh --bg-scale {}",
+    'feh': "feh --bg-fill {}",
 }
 
 
