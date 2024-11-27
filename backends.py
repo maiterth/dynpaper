@@ -7,8 +7,8 @@ PROCESS_CALLS = {
     'nitrogen': "nitrogen --set-auto {}",
     'feh': "feh --bg-fill {}",
     'swaybg' : "swaymsg output \"*\" bg {} fill",
+    'plasma' : "plasma-apply-wallpaperimage -f preserveAspectCrop {}",
 }
-
 
 
 def add_to_shell(args, argv):
